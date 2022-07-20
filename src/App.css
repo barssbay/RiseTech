@@ -1,0 +1,153 @@
+
+.App{
+  flex-direction: column-reverse;
+  width: 80%;
+  margin: 0 auto;
+}
+.App-Logo {
+  width: 100px;
+  margin: 10px;
+}
+.add-job-area{
+  flex-direction: row;
+  margin: 0 auto;
+}
+.job-flex{
+  flex-direction: row;
+}
+.job-input {
+  width: 70%;
+  margin: 15px;
+  height: 27px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+}
+input.job-input::placeholder {
+  color: black;
+}
+.select-status{
+  width: 100px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  height: 33px;
+  margin: 15px;
+}
+.Add-Button{
+  width: 120px;
+  height: 32px;
+  border-radius: 3px;
+  border: 1px solid #ececec;
+  background: cornflowerblue;
+  color: white;
+}
+.header-job{
+  margin: 15px;
+}
+.job-filter-area{
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.jobsarea{
+  margin: 10px;
+}
+.select-filter-status{
+      border: 1px solid #ececec;
+      border-radius: 3px;
+      height: 33px;
+      margin: 15px;
+      width: 240px;
+}
+.job-filter-input{
+  width: 71%;
+  margin: 10px;
+  height: 27px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+}
+.job-filter-input::placeholder{
+  color: black;
+}
+.job-filter_area{
+  flex-direction: row;
+}
+.jobs-title-area{
+  justify-content: space-between;
+  display: flex;
+  background-color: cadetblue;
+  margin-top: 0;
+  padding: 10px;
+  border-radius: 0px 0 10px 10px;
+}
+.job-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.status-value-box {
+  background: black;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+.job-show-result {
+  font-size: 16px;
+  font-family: unset;
+  padding: 10px;
+}
+.pencil-button{
+  height: 40px;
+  width: 35px;
+  margin: 15px;
+  border: 1px solid #bfbfbf;
+
+}
+.trash-button{
+  background: cadetblue;
+  height: 40px;
+  width: 100px;
+  font-size: unset;
+  margin: 15px;
+  border: 1px solid #bfbfbf;
+}
+
+    
+    
+    .canceled-button{
+      height: 40px;
+      width: 100px;
+      margin: 15px;
+      border: 1px solid #bfbfbf;
+    }
+    .change-and-remove {
+      display: flex;
+  }
+  .change-modal-header{
+    text-align: center;
+  }
+  .change-job-input{
+    width: 350px;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    height: 40px;
+}
+  
+.change-and-remove button {
+    margin: 11px;
+    padding: 10px;
+}
+.remove-modal{
+  flex-direction: column;
+  /* display: flex; */
+}
+.remove-modal-option{
+  border: 1px solid #ececec;
+  margin-top: 20px;
+  height: 40px;
+}
+.changes-remove-modal{
+  flex-direction: column;
+  display: flex;
+}
+.changed-button{
+margin: 0 auto;
+}
